@@ -19,7 +19,7 @@ print(school)
 # to get a input from user write "input" then do () and in the parenthesis ask the user a question.
 name= input("What is your name?")
 
-print("Hello," str )
+print("Hello,", name )
 
 #How many things can be put into the same print statement?
 #
