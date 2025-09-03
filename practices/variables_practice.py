@@ -22,3 +22,4 @@ print(age)
 print(math)
 
 print(fav_sub)
+print(math)
