@@ -20,3 +20,5 @@ print(year)
 print(blue)
 print(age)
 print(math)
+
+print(fav_sub)
