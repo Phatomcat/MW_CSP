@@ -25,24 +25,31 @@ average= total_ages/4
 print("The average age is of the group is,", average,)
 
 #List ALL of the different mathematical operators (Give me the symbol and tell me what it does)
-num_one=24
+num_one = int(input("tell me a number:\n"))
+num_two = float(input("tell me another number:\n"))
 num_two = 3
 
-print("Addition(+) ", num_one+num_two)
-print("Subtracion(-) ", num_one-num_two)
-print("Multiplication(*) ", num_one*num_two)
-print("Division(/) ", num_one/num_two)
-print("Exponents(**) ", num_one**num_two)
-print("Integer Division(//) ", num_one//num_two)
-print("Modulo(%) ", num_one%num_two)
-#A INTAGER DIVISION WILL GIVE YOU A WHOLE NUMBER, NUMBERS WITH DECIMALS ARE CALLED FLOATS. MODULO GIVES YOU THE REMAINDER OF THE DIVISION.
+print("Addition(+) ", num_one)
+num_one-=num_two
+print("Subtracion(-) ", num_one)
+num_one*=num_two
+print("Multiplication(*) ", num_one)
+num_one/=num_two
+print("Division(/) ",num_one) #round(number to round, number of decimal places)
+num_one**=num_two
+print("Exponents(**) ", num_one)
+num_one//=num_two
+print("Integer Division(//) ", num_one)
+num_one%=num_two
+print("Modulo(%) ", num_one)
+#INTAGER DIVISION WILL GIVE YOU A WHOLE NUMBER, NUMBERS WITH DECIMALS ARE CALLED FLOATS. MODULO GIVES YOU THE REMAINDER OF THE DIVISION. ROUND BEFORE THE VARIABLES WILL ROUND IT
 
 
 #List ALL of the different assignment operators (Give me the symbols and what it does)
-
-#
+#It is the = and you can use int and float
 
 #Why are expressions so important in programming?
+#
 
 
 
