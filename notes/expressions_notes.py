@@ -49,7 +49,7 @@ print("Modulo(%) ", num_one)
 #It is the = and you can use int and float
 
 #Why are expressions so important in programming?
-#
+#Because basically everything in programming is math so you have to be able to use the expressions.
 
 
 
