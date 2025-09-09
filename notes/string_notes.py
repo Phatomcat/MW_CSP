@@ -34,11 +34,11 @@ print('welcome to my program:',full_name +'!')
 
 #upper()
 
-#
+# uppercases the letters
 
 #lower()
 
-#
+#lowercases the letters
 
 #strip()
 
