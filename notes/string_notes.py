@@ -8,15 +8,20 @@ last_name = input('What is your last name:\n').strip().title()
 s='sksksksksks'
 full_name= firt_name+' '+last_name
 print('welcome to my program:',full_name +'!')
-
+sentence="Hello i am a"
+print(sentence.find("Hello"))
+print(sentence[sentence.find("Hello"): len("Hello")+sentence.find("Hello")])
 #Why do we have strings?
 #
 
 #How do stupid proofing and sanitization relate to each other?
-#
+#Happens on inputs, examples like .strip .title .lower .upper. Stupid proofing is when you specifically build the code so your user can't break your code.
 
 #What is debugging?
-#
+#  Debugging is the process of fixing your program.
+    #Syntax error- A mistake in your grammer. Examples spaces where there not supossed to be, forgetting commas quotation marks. 
+    #Logic Error- When the code looks fine, but the output is not what you want.
+    #Runtime Error- When the code works until it stops.
 
 #How do you debug the different types of errors?
 #
@@ -26,7 +31,7 @@ print('welcome to my program:',full_name +'!')
 
 #find()
 
-#
+#finds the begining index for a word.
 
 #concatenate (add)
 
