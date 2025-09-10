@@ -3,10 +3,10 @@
 
 #What makes something a string?
 # A set of symbols held together by quotation marks.
-firt_name = input('What is your first name:\n').strip().title()
+first_name = input('What is your first name:\n').strip().title()
 last_name = input('What is your last name:\n').strip().title()
 s='sksksksksks'
-full_name= firt_name+' '+last_name
+full_name= first_name+' '+last_name
 print('welcome to my program:',full_name +'!')
 sentence="Hello i am a"
 print(sentence.find("Hello"))
