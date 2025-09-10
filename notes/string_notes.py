@@ -11,8 +11,6 @@ print('welcome to my program:',full_name +'!')
 sentence="Hello i am a"
 print(sentence.find("Hello"))
 print(sentence[sentence.find("Hello"): len("Hello")+sentence.find("Hello")])
-#Why do we have strings?
-#
 
 #How do stupid proofing and sanitization relate to each other?
 #Happens on inputs, examples like .strip .title .lower .upper. Stupid proofing is when you specifically build the code so your user can't break your code.
