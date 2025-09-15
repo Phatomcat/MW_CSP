@@ -46,3 +46,6 @@ print(sentence[sentence.find("Hello"): len("Hello")+sentence.find("Hello")])
 #strip()
 
 # strips the spaces at the start and end
+
+
+#print(f"Hello, {variable}!")
