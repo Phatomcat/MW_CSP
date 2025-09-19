@@ -1,7 +1,7 @@
 #MW 7th CONDITIONALS NOTES
 
 #What puts something inside of the “if” statement?
-
+# it becomes a condition
 #homework_done=input("Is your homework done:").strip().capitalize()
 
 #if homework_done=="Yes":
@@ -18,6 +18,7 @@
 #It will run the code if the "if" statement is false
 
 #What kind of statement do you use if you have more than 2 needed outcomes?
+#you use a if, elif or else statement
 
 
 #What do each of the different symbols mean in conditionals?
