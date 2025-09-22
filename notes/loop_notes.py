@@ -68,13 +68,26 @@ while True:
 #How many times a loop has run
 
 #What are lists?
-
-#  
+#  store multiple things in one variable
 #How do you make lists in python?
 
-#
+#you use the [] and commas to seperate
   
 #How do you make for loops in python?
 #
+
+#for food in foods:
+    #print(f"{food} is my favorite food!")
+    #print("Hi")
+
+#for x in range(1,21):
+    #print(x)
   
 #How do you make while loops in python?
+#i=1
+
+
+#while i <= 20:
+    #print(i)
+    #i+=1
+#x=1
