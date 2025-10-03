@@ -28,8 +28,7 @@ int main(void){
 //they can't change data types midway through and all variables take the same amount of space
 
 //In C, what is the purpose of specifying a data type when declaring a variable?
-// so you can 
-
+// because it tells the computer if it is a character, int, float
 
 //List three common data types used in C and their corresponding format specifiers for printf().
 
@@ -41,11 +40,11 @@ int main(void){
 
 
 //How do you declare and initialize an integer variable named "age" with the value 25 in C?
-
+// int age = 25;
 
 
 //What is the difference between printf() and scanf() functions in C?
-//scanf needs 
+// print prints things in the terminal, but scanf is for inputting things.
 
 
 //How do you add comments in C?
@@ -60,11 +59,10 @@ int main(void){
 // everything has to be in a function, main is the function that is running the code
 
 //What is the difference between %d and %f format specifiers in printf()?
-
+// %d is for int numbers, %f is for floats like 3.1451231231
 
 
 //How do you print a newline character in C?
-
 // \n
 
 //What is the purpose of the & symbol when using scanf() to get user input?
