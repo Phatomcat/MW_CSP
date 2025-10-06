@@ -14,13 +14,14 @@ int main (void){
 
 
 //What is the difference between an integer and a float in C?
-//if both numbers are intgers it will return integer division
+//well an integer is for whole number and floats are for decimals
 
 
 
 
 
 //How does C handle integer division compared to float division?
+//if both numbers are intgers it will return integer division and for float division it can result in a float or double result
 
 
 
@@ -58,7 +59,7 @@ int main (void){
 
 
 //How do you print a float with a specific number of decimal places using printf()?
-
+// you can do the %.2f which tells it to only have 2 decimal points
 
 
 //What happens when you mix integer and float operations in C?
