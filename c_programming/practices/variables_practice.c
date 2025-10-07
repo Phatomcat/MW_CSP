@@ -9,20 +9,20 @@ float gpa = 3.56;
 char breakfast[] = "protien shake";
 char favorite_color[] = "green";
 char school_name[] = "UCAS";
-int current_year = "2025";
+int current_year = 2025;
 char eye_color[] = "blue";
 int age = 15;
 char favorite_subject[] = "math";
 
-printf("name: %s ",name);
-printf("lucky number %d ",lucky_number);
-printf("gpa %.2f ",gpa);
-printf("breakfast %s ", favorite_color);
-printf("favorite_color %s ",favorite_color);
-printf("school name %s ",school_name);
-printf("current year %d ",current_year);
-printf("eye color %s ", eye_color);
-printf("age %s ",age);
-printf("favorite subject %s ",favorite_subject);
+printf("name: %s\n ",name);
+printf("lucky number: %d\n ",lucky_number);
+printf("gpa: %.2f\n ",gpa);
+printf("breakfast: %s\n ", breakfast);
+printf("favorite_color: %s\n ",favorite_color);
+printf("school name: %s\n ",school_name);
+printf("current year: %d\n ",current_year);
+printf("eye color: %s\n ", eye_color);
+printf("age: %d\n ",age);
+printf("favorite subject: %s\n ",favorite_subject);
 
 }
