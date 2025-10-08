@@ -1,4 +1,4 @@
-//MW 
+//MW 7th EXPRESSION PRACTICE
 #include <stdio.h>
 #include <math.h>
 
