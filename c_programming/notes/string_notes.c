@@ -32,7 +32,7 @@ int main (void){
 
 
 //What is the difference between a string and a character?
-
+// strings are double quotes and characters are single quotes
 
 //What types of quotation marks do we need for a string?
 //"" you usee '' for single charachters
