@@ -6,11 +6,11 @@ int main (void){
 char first_word[30];
 char second_word[30];
 char third_word[30];
-printf("give me a object\n");
+printf("give me a object");
 scanf("%s",first_word);
-printf("give me a person\n");
+printf("give me a person");
 scanf("%s",second_word);
-printf("give me a direction\n");
+printf("give me a direction");
 scanf("%s",third_word);
 
 printf("Twinkle, twinkle, little %s\n", first_word);
