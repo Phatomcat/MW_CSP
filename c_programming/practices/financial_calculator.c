@@ -1,28 +1,27 @@
 //MW 7th FINANCIAL CALCULATOR
 
 #include <stdio.h>
-#include <math.h>
 
-int main(){
-int income, rent, utilities, groceries, transportation;
-int spend, savings, budget;
-int rent_percent, utilities_percent, groceries_percent, transportation_percent;
+int main(void){
+double income, rent, utilities, groceries, transportation;
+double spend, savings, budget;
+double rent_percent, utilities_percent, groceries_percent, transportation_percent, savings_percent;
 
-printf("Welcome to the budget calculator");
-printf("Enter your income");
-scanf("%.2f",income);
+printf("Welcome to the budget calculator ");
+printf("Enter your income ");
+scanf("%lf",&income);
 
-printf("How much is your rent?");
-scanf("%.2f", &rent);
+printf("How much is your rent? ");
+scanf("%lf", &rent);
 
-printf("How much is your utilities?");
-scanf("%.2f, &utilities");
+printf("How much is your utilities? ");
+scanf("%lf", &utilities);
 
-printf("How much is your groceries?");
-scanf("%.2f", &groceries);
+printf("How much is your groceries? ");
+scanf("%lf", &groceries);
 
-printf("How much if your transportation?");
-scanf("%.2f", &transportation);
+printf("How much is your transportation? ");
+scanf("%lf", &transportation);
 
 spend = rent+utilities+groceries+transportation;
 savings= income*.10;
@@ -33,16 +32,13 @@ groceries_percent=(groceries*100)/income;
 transportation_percent=(transportation*100)/income;
 savings_percent=(savings*100)/income;
 
-printf("Your income is %f",income);
-printf("Your rent is %f and that is %f percent of your income", rent, rent_percent);
-printf("your utilities are %f and that is %f percent of your income", utilities,utilities_percent);
-printf("Your groceries are %f and that is %f percent of your income",groceries, groceries_percent);
-printf("Your transportation is %f and that is %f percent of your income", transportation, transportation_percent);
-printf("You should save %f of your income and that is %f of your %f of your income", savings,savings_percent)
-
-
-
-
+printf("Your income is %.2f\n",income);
+printf("Your rent is %.2f and that is %.f percent of your income\n", rent, rent_percent);
+printf("your utilities are %.2f and that is %.f percent of your income\n", utilities,utilities_percent);
+printf("Your groceries are %.2f and that is %.f percent of your income\n",groceries, groceries_percent);
+printf("Your transportation is %.2f and that is %.f percent of your income\n", transportation, transportation_percent);
+printf("You should save %.2f of your income and that is %.f of your income\n", savings,savings_percent);
+printf("You have %.2f of spending money every month", budget);
 
 
 
