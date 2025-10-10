@@ -16,8 +16,12 @@ if (age >18){
     printf("You can get a learners permit!");
 }else if (age >=4 && age <=14){
     printf("You can go to school");
-}else if (age <4)
-    printf("You can vote, drive, get a learners permit or go to school");
+}else if (age <4){
+   printf("You can vote, drive, get a learners permit or go to school"); 
+}else{
+    printf("That is not a time!");
+}
+
 
 
 
