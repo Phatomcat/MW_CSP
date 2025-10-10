@@ -47,7 +47,7 @@ if(name == "Ms.LaRose"){
 /*
 
 What puts something inside of the “if” statement?
-
+you have to use ()
 
 
 How are conditions written in C?
@@ -59,7 +59,7 @@ How do we write elif conditions in C?
  you just add else if and you have to add parenthesis and a curly bracket at the end
 
 When do else conditions run?
-
+if the if statement and the else if statement is false
 
 
 What are the 3 logical operators in C?
