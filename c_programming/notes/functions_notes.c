@@ -45,7 +45,7 @@ printf("You have %.2f pencils and %.2f notebooks", pencils, notebooks);
 /*
 What a function is
 
-
+a collection of code designed for a specific task
 
 Why we use functions
 so you dont repeat things all the time
@@ -89,7 +89,7 @@ you have to tell it what data type the function is returning
 
 
 What do return statements do with the information?
-
+they send the value to the place where you called it so you can use it later.
 
 
 */
