@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 void names(char*name){
-    printf("Hello %s",names);
+    printf("Hello %s",name);
 }
 
 
