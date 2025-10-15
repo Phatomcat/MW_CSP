@@ -10,9 +10,11 @@ void names(char*name){
 
 
 int main(void){
-names("Marshall\n");
+names("marshall\n");
 names("kimball\n");
-names("Alton\n");
+names("alton\n");
+names("michael\n");
+names("marinda\n");
 
 
     return 0;
